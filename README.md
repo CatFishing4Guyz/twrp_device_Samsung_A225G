@@ -1,0 +1,1 @@
+# twrp_device_Samsung_A225G
