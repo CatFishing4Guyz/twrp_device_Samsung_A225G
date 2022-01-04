@@ -9,7 +9,7 @@ Everything, I wasn't able to build it yet
 
 Incorrect values in `BoardConfig.mk`, just don't know which
 
-Possible things missing and incorrect directories in the recovery.fstab
+Possible things missing and incorrect directories in the `recovery.fstab`
 
 ## Credits
 Monkeys30, person who made the stuff
