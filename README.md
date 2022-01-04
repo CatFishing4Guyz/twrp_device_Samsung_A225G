@@ -8,4 +8,4 @@ Monkeys30, person who made the stuff
 
 rokibhasansagar, for his noob-friendly gist
 
-lopestom, for minor details
+lopestom, for important details
