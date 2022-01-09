@@ -14,6 +14,6 @@ Possible things missing and incorrect directories in the `recovery.fstab`
 ## Credits
 Monkeys30 (The Platypus Enthusiast @XDA), me
 
-rokibhasansagar, for his noob-friendly gist, wouldn't have gotten anywhere without it
+rokibhasansagar, for his noob-friendly gist and online recovery compiler, wouldn't have gotten anywhere without it
 
 lopestom, for important details
