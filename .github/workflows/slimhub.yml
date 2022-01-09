@@ -1,0 +1,2 @@
+- name: GitHub Actions Cleaner
+  uses: rokibhasansagar/slimhub_actions@v3
