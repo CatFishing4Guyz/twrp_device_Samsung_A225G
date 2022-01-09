@@ -1,0 +1,22 @@
+# ...
+jobs:
+  recovery_builder:
+    runs-on: ubuntu-20.04
+    # You can use either of the ubuntu-18.04 or ubuntu-20.04 runner
+    steps:
+      # Checking out the repo is not mandatory, so don't
+      #- uses: actions/checkout@v2
+      # Cleanup The Actions Workspace Using Custom Composite Run Actions
+      - name: "Cleanup Environment"
+        uses: rokibhasansagar/slimhub_actions@main
+      # That's it! Now use this action
+      - name: "Recovery Compilation"
+        uses: CarbonatedBlack/Recovery-Compiler@production
+        env:
+          MANIFEST: "https://android.googlesource.com/platform/manifest"     # or "orangefox10" for Orangefox Android v10
+          DT_LINK: "https://github.com/Monkeys30/twrp_device_Samsung_A225G/tree/main"
+          VENDOR: "samsung"  # Example: xiaomi, samsung, asus, etc.
+          CODENAME: "a22x"   # Example: nikel, phoenix, ginkgo, etc.
+          TARGET: "recoveryimage"
+          FLAVOR: "eng"
+          TZ: "Asia/Kolkata"           # Set Time-Zone According To Your Region
