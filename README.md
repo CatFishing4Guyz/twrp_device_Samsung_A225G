@@ -11,6 +11,8 @@ Incorrect values in `BoardConfig.mk`, just don't know which
 
 Possible things missing and incorrect directories in the `recovery.fstab`
 
+Missing files that *might* be important
+
 ## Credits
 Monkeys30 (The Platypus Enthusiast @XDA), me
 
